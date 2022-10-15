@@ -7,7 +7,7 @@ import LanguageIcon from '@mui/icons-material/Language';
 
 function FrontCard({user, handleClick}) {
   return (
-    <Card variant="outlined" sx={{ maxWidth: 345 }} onClick={handleClick}>
+    <Card variant="outlined" sx={{ maxWidth: 360 }} onClick={handleClick}>
       <CardHeader 
         avatar={ <Avatar src={user.photo}/> }
         title={`${user.firstName} ${user.lastName}`}

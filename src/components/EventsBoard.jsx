@@ -37,25 +37,28 @@ function a11yProps(index) {
 
 export default function EventsBoard() {
   const [tabIndex, setTabIndex] = useState(0);
-  const timeFrames = ['today', 'this week', 'this month']
+  const tabTitle = ['latest', 'events', 'resources']
 
   const handleTabChange = (event, newValue) => {
     setTabIndex(newValue);
   };
 
   return (
-    <Box sx={{ flexGrow: 1, bgcolor: 'background.paper', display: 'flex', height: 224 }}>
+    <Box sx={{ flexGrow: 1, bgcolor: 'background.paper', display: 'flex', height: 224, mb: 2 }}>
       <Tabs orientation="vertical" variant="scrollable" value={tabIndex}
             onChange={handleTabChange} sx={{ borderRight: 1, borderColor: 'divider' }} >
-        {timeFrames.map((time, index) => (
-            <Tab label={time} key={time} {...a11yProps(index)} />
+        {tabTitle.map((topic, index) => (
+            <Tab label={topic} key={topic} {...a11yProps(index)} />
         ))}
       </Tabs>
-    
-      {timeFrames.map((time, index)=> (
-        <TabPanel value={tabIndex} index={index} key={`${time}-tab-content`}>{time}</TabPanel>
-      ))}
-
+      <Box overflow={'scroll'} width={'100%'} height={'100%'}>
+        {tabTitle.map((topic, index)=> (
+          <TabPanel value={tabIndex} index={index} key={`${topic}-tab-content`} >
+            
+              <img src={`/images/${topic}.png`} alt={topic} style={{width: '100%'}}/>
+          </TabPanel>
+        ))}
+      </Box>
     </Box>
   );
 }
