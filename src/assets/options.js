@@ -21,4 +21,17 @@ const selectOptions = [
     "Vernetzung"
 ]
 
-export {selectOptions}
+const generalInterests = [
+    "Wissenschaft",
+    "Technologie",
+    "Ingeniurwesen",
+    "Mathematik",
+    "Robotik",
+    "Biotechnologie",
+    "Landwirtschaft",
+    "Gesundheit und Medizin",
+    "Energie",
+    "Umwelt und Natur",
+  ];
+
+export {selectOptions, generalInterests}
