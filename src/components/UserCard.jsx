@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import { Stack, Avatar, Card, CardContent, CardHeader, Typography, Button, Divider } from "@mui/material";
 import ReactBoxFlip from 'react-box-flip';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
@@ -6,6 +6,15 @@ import PhoneIcon from '@mui/icons-material/Phone';
 import LanguageIcon from '@mui/icons-material/Language';
 
 function FrontCard({user, handleClick}) {
+  const [preview, setPreview] = useState(user.description)
+
+  useEffect(() => {
+    if(preview.length > 99) {
+      setPreview(preview.slice(0, 99).concat('...'))
+    }
+  }, [preview])
+  
+
   return (
     <Card variant="outlined" sx={{ maxWidth: 360 }} onClick={handleClick}>
       <CardHeader 
@@ -16,7 +25,7 @@ function FrontCard({user, handleClick}) {
       
       <CardContent>
         {user.description && (
-            <Typography variant="body2" sx={{mb: 2}}>{user.description}</Typography>
+            <Typography variant="body2" sx={{mb: 2}}>{preview}</Typography>
         )}
         {user.activityAreas && (
             <Stack direction="row" spacing={2}>
