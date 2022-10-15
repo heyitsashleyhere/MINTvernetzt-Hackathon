@@ -7,7 +7,7 @@ import LanguageIcon from '@mui/icons-material/Language';
 
 function FrontCard({user, handleClick}) {
   return (
-    <Card sx={{ maxWidth: 345 }} onClick={handleClick}>
+    <Card variant="outlined" sx={{ maxWidth: 345 }} onClick={handleClick}>
       <CardHeader 
         avatar={ <Avatar src={user.photo}/> }
         title={`${user.firstName} ${user.lastName}`}
@@ -32,7 +32,7 @@ function FrontCard({user, handleClick}) {
 function BackCard({user, handleClick}) {
   const date = (item) => new Date(item).toLocaleDateString("eu");
   return (
-    <Card sx={{ maxWidth: 345 }} onClick={handleClick}>
+    <Card variant="outlined" sx={{ maxWidth: 345 }} onClick={handleClick}>
       <CardContent>
           <img src={user.photo} style={{width: '20%'}} alt={`${user.firstName} ${user.lastName}`} />
           <Typography color={'primary'}>{`${user.firstName} ${user.lastName}`}</Typography>

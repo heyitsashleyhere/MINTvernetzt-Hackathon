@@ -1,7 +1,9 @@
 import React from 'react'
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import EventsBoard from './components/EventsBoard.jsx';
-import UserCard from './components/UserCard.jsx';
+import CardDisplay from './components/CardDisplay.jsx'
+import ScrollToTopBtn from './components/ScrollToTop/ScrollToTopBtn.jsx';
+
 
 const theme = createTheme({
 	palette: {
@@ -51,10 +53,9 @@ export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <div className='App'>
+        <ScrollToTopBtn />
         <EventsBoard />
-        {users.map(user => (
-          <UserCard user={user} key={user._id}/>
-        ))}
+        <CardDisplay />
       </div>
     </ThemeProvider>
   )
