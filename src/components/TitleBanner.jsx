@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Autocomplete, TextField, Stack, Typography, Slider } from "@mui/material";
-import {selectOptions} from "../assets/options.js"
+import {selectOptions, generalInterests} from "../assets/options.js"
 
 export default function TitleBanner({category, preSelected}) {
     // const [selects, setNewSelects] = useState([...preSelected])
@@ -16,7 +16,7 @@ export default function TitleBanner({category, preSelected}) {
             sx={{width: '55%', my: 2}}
             multiple
             id="tags-standard"
-            options={selectOptions}
+            options={category === 'interests' ? generalInterests : selectOptions}
             getOptionLabel={(option) => option}
             defaultValue={preSelected}
             renderInput={(params) => (

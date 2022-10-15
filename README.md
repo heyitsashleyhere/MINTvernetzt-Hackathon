@@ -1,14 +1,23 @@
-# Mint-Vernetzt Project - Map and Match
+<h1 align="center">MINTvernetzt Hackathon 2022</h1>
+<p align="center">
+A weekend long project for <a href="https://mint-vernetzt.de/" target="_blank">MINTvernetzt</a>, focusing on the subject mapping and matching</a>
+</p>
 
+---
 ## Hackathon group #3
 
-### - Goal: Map users interest/needs and match people together based on similar criterias.
+### Members: [Ashley](https://github.com/heyitsashleyhere), [Maykal](https://github.com/maykaltenev), [Oliveira](https://github.com/OliveiraDCI)
 
-- Team members: Ashley, Maykal, Oliveira
-- Idea: Display match results directly, in a dashbord, once logged in.
+### Goal: 
+- Map users interests/needs and match other members in their community together based on similar criteria. 
+- Somehow inspire more girls in STEM education.
+
+### Solution: 
+
+- Idea: Display match results directly, in a dashboard, once logged in at their [community page](https://community.mint-vernetzt.de/explore)
 - General Info:
-  - The time-frame for this project will only allow our focus in one main aspect
-    - Algorithm functionality ( UX ) - ofcourse, also a simple layout page.
+  - The time frame for this project will only allow our focus in one main aspect
+    - Algorithm functionality ( UX ) - of course, also a simple layout page.
     - Or the UI only and focus on visuals.
 
 ---
@@ -25,7 +34,4 @@ Considering we work on the Algorithm idea, here are some reference steps we coul
 
 **Saturday Morning Plan**
 
-- 09:30 - 10:00 : Team meeting, define goals and tasks for the day
-- 10:00 - 10:30 : Group work step #1
-- 10:30 - 11:00 : Group work step #2
-- 11:00 - 11:30 : Define tasks for each, plan rest of day.
+- 
