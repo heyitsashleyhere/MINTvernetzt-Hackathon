@@ -3,9 +3,13 @@ import { Box, Link, Stack, Typography } from "@mui/material";
 
 export default function Footer() {
   return (
-    <Box display={'flex'} flexDirection={'row'} justifyContent={'flex-end'} mt={2} mb={2}>
+    <Box display={'flex'} flexDirection={'row'} justifyContent={'space-between'} mt={2} mb={2} px={3}>
+        <Link href="https://mint-vernetzt.de/" target='_blank' underline="hover">
+            <img src="/images/footer_logo.png" alt="MINTvernetzt" style={{width: '50%'}}/>
+        </Link>
         
         <Stack direction="row" spacing={2}>
+
             <Link href="#" underline="hover">
                 <Typography>
                     Impressum
@@ -22,8 +26,7 @@ export default function Footer() {
                     Nutzungsbedingungen
                 </Typography>
             </Link>
-
-            <img src="/images/footer_logo.png" alt="MINTvernetzt" style={{width: '5%'}}/>
+            
         </Stack>
     </Box>
   )
