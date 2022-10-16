@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
+import React, { useContext } from 'react'
 import { Autocomplete, TextField, Stack, Typography, Slider } from "@mui/material";
 import {selectOptions} from "../assets/options.js"
+import { UserContext } from '../context/UserContext.js';
 
 export default function TitleBanner({category, preSelected}) {
-    // const [selects, setNewSelects] = useState([...preSelected])
-    const [percentage, setPercentage] = useState(100) 
+    const {percentage, setPercentage} = useContext(UserContext)
 
     function handleSlider(event, newValue) {
         setPercentage(newValue)
