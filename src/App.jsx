@@ -7,6 +7,8 @@ import {users} from './assets/users.js'
 import { convertString, generateTrigram, trigramSimilarity} from './assets/authFunc.js'
 import { UserContext } from './context/UserContext.js';
 import CategoryTabs from './components/CategoryTabs.jsx';
+import Footer from './components/Footer.jsx';
+import { Divider } from "@mui/material";
 
 
 const theme = createTheme({
@@ -117,13 +119,15 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <div className='App' style={{padding: '1.2rem 9rem'}}>
-        <ScrollToTopBtn />
+      <div className='App'>
+        <div style={{padding: '1.2rem 9rem'}}>
+          <ScrollToTopBtn />
+          <EventsBoard />
+          <CategoryTabs />
+        </div>
 
-        <EventsBoard />
-        
-        <CategoryTabs />
-
+        <Divider />
+        <Footer />
       </div>
     </ThemeProvider>
   )
