@@ -5,7 +5,7 @@ import { Grid } from "@mui/material";
 export default function CardDisplay({users}) {
 
   return (
-    <Grid container spacing={1} minHeight={'65vh'}>
+    <Grid container spacing={1} minHeight={'60vh'}>
         {users.map(user => (
             <Grid item xs={4} key={user._id}>
                 <UserCard user={user} />

@@ -13,7 +13,7 @@ A weekend long hackathon hosted for and by <a href="https://mint-vernetzt.de/" t
   - Somehow inspire more girls to be interested in STEM education
 
 - Approach:
-  - Minimal change, avoid re-branding and graphic design 
+  - Minimal change, avoid re-branding and new design (visuals) 
   - Focus on features that can be added and scaled in the next 5 years
 
 - Solution: 
