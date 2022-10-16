@@ -42,7 +42,7 @@ export default function App() {
         // User offers matching what other users seeks
         let otherUserSeek = convertString(item.seek.join(""));
         if (Number(trigramSimilarity(userOffer, otherUserSeek)) > 0.5) {
-          provideSupport.push(item._id);
+          provideSupport.push(item);
         }
     
         // User seeking matching what other users offers
@@ -50,7 +50,7 @@ export default function App() {
           item.offer.concat(item.competencies).join("")
         );
         if (Number(trigramSimilarity(userSeek, otherUserOffers)) > 0.5) {
-          getSupport.push(item._id);
+          getSupport.push(item);
         }
     
         // User interest matches other user interests
@@ -58,7 +58,7 @@ export default function App() {
           item.interests.concat(item.competencies).join("")
         );
         if (Number(trigramSimilarity(userInterests, otherUserInterests)) > 0.5) {
-          interestMatches.push(item._id);
+          interestMatches.push(item);
         }
       });
       setOffering([...new Set(provideSupport)])
