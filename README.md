@@ -18,8 +18,7 @@ A weekend long hackathon hosted for and by <a href="https://mint-vernetzt.de/" t
 
 - Solution: 
 
-
-https://user-images.githubusercontent.com/84905549/196012734-096c9724-4749-4983-a5e4-05715a8c68a2.mp4
+https://user-images.githubusercontent.com/84905549/196027117-98398eb5-552b-4796-a2a1-a6aab06ff935.mp4
 
 
   - Display matched results directly on a dashboard, once logged in.
@@ -53,6 +52,6 @@ $ npm start
 
 ## Other connecting repositories
 
-- [Algorithm](https://github.com/OliveiraDCI/mint-vernetzt-hackaton-project)
-- [Backend](https://github.com/maykaltenev/mint-mapping-hackthon)
+- [Oliveira's Algorithm](https://github.com/OliveiraDCI/mint-vernetzt-hackaton-project)
+- [Maykal's Backend](https://github.com/maykaltenev/mint-mapping-hackthon)
 - [2021 MINTvernetzt Hackathon](https://github.com/mint-vernetzt/community-platform)
