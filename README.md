@@ -17,6 +17,11 @@ A weekend long hackathon hosted for and by <a href="https://mint-vernetzt.de/" t
   - Focus on features that can be added and scaled in the next 5 years
 
 - Solution: 
+
+
+https://user-images.githubusercontent.com/84905549/196012734-096c9724-4749-4983-a5e4-05715a8c68a2.mp4
+
+
   - Display matched results directly on a dashboard, once logged in.
     - The whole prototype should be inserted and replace filters in the current [community page](https://community.mint-vernetzt.de/explore).
     - Cards can be flipped to create more 'human' interaction
