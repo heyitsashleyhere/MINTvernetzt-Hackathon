@@ -26,6 +26,7 @@ https://user-images.githubusercontent.com/84905549/196027117-98398eb5-552b-4796-
     - Cards can be flipped to create more 'human' interaction
 
   - Create an algorithm to match by percentage
+    - Using [n-gram](https://www.npmjs.com/package/n-gram) ( ← *currently using a different package but will like more time to switch to this package)
     - User's can directly edit their fields without going to their profile edit page
 
   - News board to increase `girl in STEM` awareness 
