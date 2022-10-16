@@ -18,7 +18,7 @@ A weekend long hackathon hosted for and by <a href="https://mint-vernetzt.de/" t
 
 - Solution: 
 
-https://user-images.githubusercontent.com/84905549/196027117-98398eb5-552b-4796-a2a1-a6aab06ff935.mp4
+https://user-images.githubusercontent.com/84905549/196029461-10e47a3d-23b2-4423-8298-606e54546d2e.mp4
 
 
   - Display matched results directly on a dashboard, once logged in.
