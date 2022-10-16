@@ -1,25 +1,22 @@
-# Mint-Vernetzt Project - Map and Match
-
-## Hackathon group #3
-
-### - Goal: Map users interest/needs and match people together based on similar criterias.
-
-- Team members: Ashley, Maykal, Oliveira
-- Idea: Display match results directly, in a dashbord, once logged in.
-- General Info:
-  - The time-frame for this project will only allow our focus in one main aspect
-    - Algorithm functionality ( UX ) - ofcourse, also a simple layout page.
-    - Or the UI only and focus on visuals.
+<h1 align="center">MINTvernetzt Hackathon 2022</h1>
+<p align="center">
+A weekend long hackathon hosted for and by <a href="https://mint-vernetzt.de/" target="_blank">MINTvernetzt</a> with the topic of mapping and matching</p>
 
 ---
 
-Considering we work on the Algorithm idea, here are some reference steps we could use:
+## Hackathon group #3
 
-1. **Define all criterias / properties**: define not the how (visual) nut which data we will request from users, to use in our database for the matching process.
-
-2. **Define scoring for each criteria**: Give importance to each criteria, to weight more or less in the overall matching results.
-
-3. **Enhance logical performance gradually**: A pre-selection logic, filtering, sorting results, etc.
+- Team members: [Ashley](https://github.com/heyitsashleyhere), [Maykal](https://github.com/maykaltenev), [Oliveira](https://github.com/OliveiraDCI)
+- Goals:
+  - Map users interests/needs with other members in the community based on similar criteria.
+  - Somehow inspire more girls to be interested in STEM education
+- Solution: 
+  - Display matched results directly on a dashboard, once logged in.
+    - Cards can be flipped to create more 'human' interaction
+  - Create an algorithm to match by percentage
+    - User's can directly edit their fields without going to their profile edit page
+  - News board to increase `girl in STEM` awareness 
+    - possible to apply other topics of interests depending on seasons/holidays/events, ie Pride Month, Black History Month)
 
 ---
 
